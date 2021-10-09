@@ -524,6 +524,22 @@ h6 { font-size: 16px; }
 	display: inline-block;
 	overflow:hidden;
 }
+
+ @media screen and (max-width:800px) {
+    .shane_tm_hero .content h3{
+	position: relative;
+	font-size: 20px;
+	font-family: "Montserrat";
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #000;
+	line-height: 1.2;
+	display: inline-block;
+	overflow:hidden;
+			}
+
+        }
+
 .shane_tm_hero .content h3 span{
 	color: transparent;
 	-webkit-text-stroke: 1px #000;
