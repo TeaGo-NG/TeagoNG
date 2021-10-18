@@ -351,7 +351,7 @@ h6 { font-size: 16px; }
 .my_trigger .hamburger .hamburger-inner::before,
 .my_trigger .hamburger .hamburger-inner::after,
 .my_trigger .hamburger .hamburger-inner{
-	background-color: #000;
+	background-color: #d0022b;
 	width: 30px;
 	
 	-webkit-transition: all .3s ease;
@@ -490,6 +490,23 @@ h6 { font-size: 16px; }
 	background-position: center;
 	background-size: cover;
 }
+
+/*@media (max-width: 768px) {
+	.shane_tm_hero .image{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: greenyellow !important; 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+}*/
+
+
+
 .shane_tm_hero[data-style="one"] .background{clip-path: polygon(0% 100%, 21% 0%, 100% 0%, 100% 100%);}
 .shane_tm_hero[data-style="two"] .background{clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);}
 .shane_tm_hero[data-style="three"] .background{clip-path: ellipse(70% 80% at 70% 50%);}
@@ -712,7 +729,7 @@ body.loaded .overlay_effect:after{
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	background-size: cover;
 	background-position: center;
 	box-shadow: 0px 0px 40px rgb(0 0 0 / 20%);
